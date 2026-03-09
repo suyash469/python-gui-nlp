@@ -1,0 +1,16 @@
+# Ignore the virtual environment
+.venv/
+env/
+venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore configuration and secrets
+settings.cfg
+.env
+
+# Ignore the local database if it's a file
+db/
+*.db
